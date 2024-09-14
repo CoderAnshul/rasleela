@@ -11247,14 +11247,49 @@ for (var attr in meta) {
 
 
 <style> #shopify-section-template--23160390549787__collapsible_content_WymTF7 h2 {font-size: 64px;} </style></section>
-<div id="shopify-section-template--23160390549787__neon_tJAKEG" class="shopify-section neonWrap">
+<!-- <div id="shopify-section-template--23160390549787__neon_tJAKEG" class="shopify-section neonWrap">
   
-</div>
+</div> -->
 
 <div class="name" style="width: 100%; display: flex; align-items: center; justify-content: center; max-height: 700px;">
-  <img src="images/1.png" alt="navaratri" style="height: 100%; width: 100%; object-fit: contain; scale: 0.7; margin-top: -150px!important; ">
+  <div class="card-container">
+    <div class="card">Priyanka Kher</div>
+    <div class="card">Meeral Rathod</div>
+    <div class="card">Keval Shah</div>
+    <div class="card">Dev Raval</div>
+    <div class="card">Mukesh Chaudhary</div>
+    <div class="card">Kashyap Tevani</div>
+</div>
+  <!-- <img src="images/1.png" alt="navaratri" style="height: 100%; width: 100%; object-fit: contain; scale: 0.7; margin-top: -150px!important; "> -->
+
 </div>
 <style>
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.card {
+    background: linear-gradient(145deg, #000000, #434343);
+    color: white;
+    height: 80px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
   body, html{
     overflow-x: hidden;
   }
