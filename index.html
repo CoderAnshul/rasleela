@@ -11248,8 +11248,16 @@ for (var attr in meta) {
 
 <style> #shopify-section-template--23160390549787__collapsible_content_WymTF7 h2 {font-size: 64px;} </style></section>
 <div id="shopify-section-template--23160390549787__neon_tJAKEG" style="margin-bottom: 30px;" class="shopify-section neonWrap">
-      <img style="height: 100%; width: 80%;" src="images/namePoster.jpg" alt="">
+      <img class="singerIntro" style="height: 100%; width: 80%;" src="images/namePoster.jpg" alt="">
 </div>
+<!-- 
+<style>
+  @media (max-width:580px){
+    .singerIntro{
+      width: 100%!important;
+    }
+  }
+</style> -->
 
 <div class="name" style="width: 100%; display: flex; align-items: center; justify-content: center; max-height: 700px;">
   <div class="card-container">
@@ -11298,6 +11306,22 @@ for (var attr in meta) {
   .name img{
     scale: 1.2!important;
   }
+  .card {
+    background: linear-gradient(145deg, #000000, #434343);
+    color: white;
+    height: 80px!important;
+    width: 120px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+}
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Grey+Qo&amp;display=swap');
